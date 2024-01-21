@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manoj's Portfolio Website</title>
+    <link rel="icon" href="Images/letter-m.png"
+              type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/ead8db4233.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+      <div id="container">
+        <nav>
+            <img src="Images/icons8-code-64 (1).png" class="logo" alt="logoo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li> 
+                <li><a href="#portfolio">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Graduate Engineer</p>
+            <h1>Hi, My name is <span >Manoj M</span> <br>and I am a passionate <br><span id="typewriter"></span><span> <div id="cursor"></div></span></h1>
+        </div>
+      </div>  
+    </div>
+    <!-----------------------about----------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/programmer.gif" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub_title">About Me</h1>
+                    <p>l am very practical person with an amiable disposition and strong cultural values. Strongly believe in accuracy and precision in whatever do. I believe I have good communication skills that would provide transparency and productivity in the organization.Proficient in Python, MySQL, HTML, CSS, Bootstrap and Javascript. Seeking to apply my coding and problem-solving skills to create innovative software solutions.
+                        
+                        
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('projects')">Projects</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programmimg Languages</span><br>Python
+                                ,MySQL
+                                ,Html & CSS
+                                ,Javascript
+                                </li>
+                            <li><span>Frame work/tools</span><br>Bootstrap,Git,Github,vscode</li>
+                            <li><span>Databases</span><br>Mysql</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Mini project(2022)</span><br>Trading bot using Machine Learning</li>
+                            <li><span>Main project(2023)</span><br>Malignancy Detection using Transfer Learning</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Under Graduate(2019-2023)</span><br>B.tech Information Technology in Panimalar institution of Technology,Chennai<br>
+                                CGPA-8.2</li>
+                            <li><span>HSC(2018-2019)</span><br>Quaide Millath Matriculation Higher Secondary School, Nagapattinam<br>
+                                Percentage-81.5%</li>
+                            <li><span>SSLC(2016-2017)</span><br>Quaide Millath Matriculation Higher Secondary School, Nagapattinam<br>
+                                Percentage-97.2%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!----------------services---------------------------------------->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub_title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code" ></i>
+                <h2>web design</h2>
+                <p>Hello! I'm Manoj, a passionate and motivated web developer embarking on an exciting journey in the digital realm. Proficient in HTML,CSS,Bootstrap and Javasccript I bring a fresh perspective and a commitment to creating efficient, user-friendly websites. My dedication to staying abreast of the latest industry trends and my eagerness to tackle new challenges make me a valuable asset for any project. Let's collaborate and build something extraordinary together! </p>
+                    <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <h2>Video Editing</h2>
+                <p>Hey there! I'm Manoj, an aspiring video editor proficient in industry-standard software like Adobe Premiere Pro and After Effects. With a keen eye for detail and a passion for storytelling, I bring a fresh perspective to the world of visual content creation. From crafting engaging narratives to enhancing visual appeal, I'm excited to contribute my creativity and dedication to your projects. Let's bring your ideas to life through the power of compelling video editing!</p>
+                    <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-camera"></i>
+                <h2>Photography</h2>
+                <p>Hello! I'm Manoj, an emerging photographer passionate about capturing moments that tell unique stories. Armed with an artistic eye and proficiency in photography tools like Adobe Lightroom and Photoshop, I'm eager to embark on a visual journey, bringing creativity and fresh perspectives to every shot. Whether it's portraits, landscapes, or events, I'm dedicated to transforming ordinary scenes into extraordinary visual narratives. Let's collaborate and create memorable images together!
+
+
+
+
+
+                </p>
+                    <a href="#">learn more</a>
+            </div>
+            </div>
+    </div>
+   </div>
+   <!----------portfolio  -->
+   <div id="portfolio">
+       <div class="container">
+             <h1 class="sub_title">My Works</h1>
+             <div class="work-list">
+                <div class="work">
+                    <img src="Images/cur1.jpg">
+                    <div class="layer">
+                        <h3>Real-time Currency Converter</h3>
+                        <p>
+                            Create a real-time currency converter in Python by utilizing an API such as Open Exchange Rates or Fixer.io to fetch live exchange rates. Implement a simple user interface allowing users to input the amount and select the desired currencies, and then display the converted amount based on the latest exchange rates.</p>
+                        <a href="https://github.com/Manoj2462/PYTHON/blob/main/Real-time%20Currency%20Converter.py"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/rps1.jpg">
+                    <div class="layer">
+                        <h3>Rock Paper and Scissors </h3>
+                        <p>
+                            Develop a Rock, Paper, Scissors game in Python using basic conditional statements to determine the winner. Utilize user input for their choice and generate the computer's choice randomly, creating an interactive and enjoyable two-player experience.</p>
+                        <a href="https://github.com/Manoj2462/PYTHON/blob/main/Rock%20Paper%20and%20Scissors%20with%20Python.py"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/iron2.jpg">
+                    <div class="layer">
+                        <h3>Pencil Sketch</h3>
+                        <p>
+                            As a fresher, diving into pencil sketch creation in Python can be an exciting journey. Begin by exploring image processing libraries like OpenCV and techniques like grayscale conversion and edge detection. Embrace the learning process, experiment with different parameters, and gradually build your understanding of image manipulation to craft impressive pencil sketch effects</p>
+                        <a href="https://github.com/Manoj2462/PYTHON/blob/main/Pencil%20Sketch.py"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+             </div>
+             <a href="https://github.com/Manoj2462" class="btn">See more</a>
+       </div>
+</div>
+<!----------personal projects   -->
+<section id="Works" class="work">
+    <div class="container">
+        <h1 class="section-heading-white"><span>Academic</span> Projects</h1>
+        <p>All my projects in which I had worked and developed are shown below</p>
+
+        <div class="card-wrapper-projects">
+            <div class="projects_card_odd">
+                <div class="cardImage_odd"><img src="Images/bot1.avif"
+                        alt=""></div>
+                <div class="cardTexts_odd">
+                    <h2> Trading Prediction using Machine Learning</h2>
+                    <p>  Developing an innovative trading bot empowered by machine learning algorithms to analyze market trends, optimize trading strategies, and enhance decision-making for more informed and profitable trades.We leverage the classic technique widely used which is applied by financial data.The purpose of the project is to predict the future of trading market and also it helps to learn the basics of trading market to its best. This project is done using Python, Machine Learning, Pandas, Numpy.
+                    </p>
+                    <button class="btn btn-primary" onclick="location.href='https://github.com/Manoj2462/PYTHON'">
+                        View Github
+                    </button>
+                </div>
+            </div>
+            <div class="projects_card_odd">
+                <div class="cardImage_odd"><img src="Images/Cancer1.jpg"
+                    alt=""></div>
+                <div class="cardTexts_odd">
+                    <h2>Malignancy Detection using Transfer Learning  </h2>
+                    <p>
+                        Abundant accumulation of digital histopathology images has led to the increased demand for their analysis, such as computer-aided diagnosis using machine learning  techniques.However, digital pathological images and related tasks have some issues to be considered.In this project, we introduce the application of digital pathological image analysis using machine learning algorithms, address some problems specific to such analysis, and propose possible solutions.The proposed methodology improved overall accurancy from 89% to 98.4% and was computationally efficient. 
+                    </p>
+                    <button class="btn btn-primary" onclick="location.href='https://github.com/Manoj2462/PYTHON'">
+                        View Github
+                    </button>
+                </div>
+                
+            </div>
+            </div>
+
+            
+
+
+        </div>
+    </div>
+<!---------contact------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub_title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>agxmanoj2462@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>+91 9360739284</p>
+                <div class="social-icons">
+                    <a href="https://linkedin.com/in/manoj2462"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Manoj2462"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:agxmanoj2462@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.instagram.com/manoooo._/"><i class="fa-brands fa-instagram"></i></a>
+
+                </div>
+                <a href="Manoj-M-CV.pdf" download class="btn btn2" >Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copywrite">
+        <p>copyright 2024 ©️ Manoj </p>
+    </div>
+</div>
+   <script>
+   
+     var tablinks = document.getElementsByClassName("tab-links");
+     var tabcontents = document.getElementsByClassName("tab-contents ");
+
+     function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+     }
+   </script>
+   <!---------------- animation script-->
+ <script>
+    const words = ["Programmer","Web Designer","Software Developer", "Python Developer",  ];
+const el = document.querySelector("#typewriter");
+
+const sleepTime = 100;
+let currWordIndex = 0;
+
+const sleep = (time) => {
+  return new Promise((resolve) => setTimeout(resolve, time));
+};
+
+const effect = async () => {
+  while (true) {
+    currWord = words[currWordIndex];
+
+    for (let i = 0; i < currWord.length; i++) {
+      el.innerText = currWord.substring(0, i + 1);
+      await sleep(sleepTime);
+    }
+
+    await sleep(500);
+
+    if (currWordIndex >= words.length - 1) {
+      currWordIndex = 0;
+      await sleep(1000);
+    } else currWordIndex++;
+  }
+};
+
+effect();
+ </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+  </script>
+  <!-----------new script -->
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxq73V6taEmRfJLlE0RwZOXMzGp0EeoF0DX617mPjvucQ1ZUrp-4DLjYY-aWutg81Yzhg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },1000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+   <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+   <div class="elfsight-app-c14694cd-db6b-417a-96a2-31c2737b9170" data-elfsight-app-lazy></div>
+</body>
+</html>
